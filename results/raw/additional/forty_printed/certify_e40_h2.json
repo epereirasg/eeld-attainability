@@ -1,0 +1,90 @@
+[
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": null,
+  "v_multistart": 105160.27174054619,
+  "v_final": 105160.27174054619,
+  "scip_lb": 102411.22243811253,
+  "scip_status": "timelimit",
+  "scip_time_s": 146.9936434690003,
+  "adopted": false
+ },
+ {
+  "kind": "E",
+  "w": null,
+  "Ecap": null,
+  "v_multistart": 20684.214063120104,
+  "v_final": 20684.214063120104,
+  "scip_lb": 20684.195296367205,
+  "scip_status": "gaplimit",
+  "scip_time_s": 0.09941224400017745,
+  "adopted": false
+ },
+ {
+  "kind": "W",
+  "w": 0.25,
+  "Ecap": null,
+  "v_multistart": 0.08293274145304654,
+  "v_final": 0.08293274145304654,
+  "scip_lb": 0.057597514140279915,
+  "scip_status": "timelimit",
+  "scip_time_s": 134.39247583199995,
+  "adopted": false
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 26488.956948567342,
+  "v_multistart": 112669.1503719032,
+  "v_final": 112669.1503719032,
+  "scip_lb": 110082.40365193682,
+  "scip_status": "timelimit",
+  "scip_time_s": 133.17575300600038,
+  "adopted": false
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 25094.801319695376,
+  "v_multistart": 114305.33496555962,
+  "v_final": 114305.33496555962,
+  "scip_lb": 111276.55286897614,
+  "scip_status": "timelimit",
+  "scip_time_s": 132.058349937,
+  "adopted": false
+ },
+ {
+  "kind": "W",
+  "w": 0.75,
+  "Ecap": null,
+  "v_multistart": 0.06898255839469533,
+  "v_final": 0.06898255839469533,
+  "scip_lb": 0.04663264153782665,
+  "scip_status": "timelimit",
+  "scip_time_s": 137.76582166700018,
+  "adopted": false
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 51671.44405439212,
+  "v_multistart": 105518.03440918065,
+  "v_final": 105251.06433165926,
+  "scip_lb": 104798.40652393678,
+  "scip_status": "timelimit",
+  "scip_time_s": 137.63666874499995,
+  "adopted": true
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 48951.89436731886,
+  "v_multistart": 105850.99007134984,
+  "v_final": 105850.99007134984,
+  "scip_lb": 105077.73325716493,
+  "scip_status": "timelimit",
+  "scip_time_s": 137.2700315699999,
+  "adopted": false
+ }
+]

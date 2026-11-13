@@ -1,0 +1,60 @@
+{
+ "request": [
+  1,
+  0.5,
+  0.05
+ ],
+ "reachable": true,
+ "cost_increase_pct": 1.640230118617736,
+ "mw_shifted_full": 72.85012073771067,
+ "G_ref": 0.4223219441759965,
+ "G_phys": 0.0,
+ "G_Rfree": 0.4218831199777457,
+ "eta_b_ref": 0.42477701344732355,
+ "rho_star": 0.40625,
+ "R_star": 74.21875,
+ "tau_star": 56.19140625,
+ "minimal_sets": [
+  "7-9"
+ ],
+ "deliver": {
+  "rho_star": {
+   "G": 0.04908091493841259,
+   "share_of_cut": 0.9433123678160389,
+   "above_cap_pct": 0.2983559588629614,
+   "cost_vs_target_pct": 0.06463881846512365
+  },
+  "R_star": {
+   "G": 0.03971529244616884,
+   "share_of_cut": 0.9494144718458334,
+   "above_cap_pct": 0.2662396218640506,
+   "cost_vs_target_pct": 0.0393874416196649
+  }
+ },
+ "compliance": {
+  "0.0": {
+   "need": true,
+   "rho_star_E": 0.191015625,
+   "R_star_E": 66.40625,
+   "tau_star_E": 28.359375,
+   "S_size_E": NaN,
+   "S_sets_E": NaN
+  },
+  "0.01": {
+   "need": true,
+   "rho_star_E": 0.1873046875,
+   "R_star_E": 66.40625,
+   "tau_star_E": 28.359375,
+   "S_size_E": 3.0,
+   "S_sets_E": "4-7-9;4-9-10;7-9-10"
+  },
+  "0.05": {
+   "need": true,
+   "rho_star_E": 0.1724609375,
+   "R_star_E": 62.5,
+   "tau_star_E": 26.1328125,
+   "S_size_E": NaN,
+   "S_sets_E": NaN
+  }
+ }
+}

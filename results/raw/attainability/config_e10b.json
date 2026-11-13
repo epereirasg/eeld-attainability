@@ -1,0 +1,59 @@
+{
+ "config": {
+  "case": "10",
+  "hours": "2,4,6,8,10,12,14,16,18,20,22,24",
+  "cfg": {
+   "K": 100,
+   "kb": 4,
+   "weights": [
+    0.25,
+    0.5,
+    0.75
+   ],
+   "cuts": [
+    0.025,
+    0.05,
+    0.1
+   ],
+   "R_grid": [
+    10,
+    25,
+    50,
+    100,
+    250
+   ],
+   "rho_grid": [
+    0.02,
+    0.05,
+    0.1,
+    0.2
+   ],
+   "R_front": [
+    5,
+    10,
+    20,
+    40,
+    80,
+    160,
+    320
+   ],
+   "ref": [
+    50.0,
+    0.05
+   ],
+   "alt": [
+    100.0,
+    0.1
+   ],
+   "eps": 0.05,
+   "bis": 8,
+   "R_hi": 1000.0,
+   "set_mode": "exhaustive",
+   "set_max": 3
+  }
+ },
+ "metadata": {
+  "note": "Written by the v3 runner, which recorded no package versions. Absolute input paths removed; the inputs are data/eeld10_coeffs.csv and data/demand_eeld10.csv (unchanged SHA-256).",
+  "source_commit": "09c0100"
+ }
+}

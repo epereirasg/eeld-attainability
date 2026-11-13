@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the article and this repository."
+title: "Attainability analysis and allowance counterfactuals in emission redispatch: code, data and results"
+version: 1.0.0
+date-released: 2026-11-13
+authors:
+  - family-names: "Pereiras"
+    given-names: "Ernesto"
+    affiliation: "Universidad de Talca"
+  - family-names: "Nápoles"
+    given-names: "Gonzalo"
+    affiliation: "Tilburg University"
+  - family-names: "Salgueiro"
+    given-names: "Yamisleydi"
+    affiliation: "Universidad de Talca"
+keywords:
+  - economic-emission dispatch
+  - redispatch
+  - attainability
+  - counterfactual explanations
+  - multi-objective optimization
+license: MIT

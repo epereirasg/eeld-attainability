@@ -1,0 +1,14 @@
+# Exact versions used for the stored campaign and for the checks described in README.md.
+# Python 3.13 (3.13.16 for the campaign, 3.13.17 and 3.13.18 for the checks).
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.5
+matplotlib==3.11.2
+seaborn==0.13.2
+# Method comparison only (experiments/robustness, experiments/methods_dfo)
+cma==4.5.0
+scikit-learn==1.9.1
+# Global certificates (src/eeldattain/globalopt.py, experiments/additional/scip_*.py), bundles SCIP 10
+pyscipopt==6.3.0
+# Tests
+pytest==9.1.1

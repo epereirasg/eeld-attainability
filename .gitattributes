@@ -1,0 +1,2 @@
+# Keep input files byte-identical on every platform (their SHA-256 sums are checked at load time).
+data/** -text

@@ -1,0 +1,64 @@
+{
+ "config": {
+  "OPS": {
+   "K": 100,
+   "R0": 50.0,
+   "R_grid": [
+    25,
+    50,
+    100,
+    250
+   ],
+   "R_hi": 1000.0,
+   "bis": 8,
+   "cuts": [
+    0.05,
+    0.1
+   ],
+   "eps": 0.05,
+   "kb": 4,
+   "rho0": 0.05,
+   "rho_grid": [
+    0.05,
+    0.1,
+    0.2
+   ],
+   "set_max": 3,
+   "tau0": 15.0,
+   "tau_grid": [
+    10,
+    15,
+    30,
+    60
+   ],
+   "tau_max": 300.0,
+   "weights": [
+    0.25,
+    0.5,
+    0.75
+   ]
+  },
+  "cache": "results/raw/operational/cache",
+  "hours": "2-23",
+  "tol": 0.001
+ },
+ "metadata": {
+  "started": "2026-10-23T13:58:39",
+  "python": "3.13.17",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pandas": "3.0.5",
+  "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39",
+  "git_commit": "unknown",
+  "data_sha256": {
+   "demand_eeld10.csv": "c9970154f4be58460e3498f53e7a401eee9d3764c714b59ed1eb6ee4f7aad6b2",
+   "demand_eeld40.csv": "891f6f9060e00d70f9adf18b1693297993f316ec7d514d951fa65cd12a9edcb6",
+   "eeld10_coeffs.csv": "ea9ff88e46de8ee7e18c4d8ca542c476a35129f3e08857397a7ea8006c9aa42c",
+   "eeld40_coeffs.csv": "a8293dbdb17d36d2f92d2877162f1bbe3dab25e21c21962927db6e90e2f8c235",
+   "external/eeld10_B_matrix.csv": "091a2d12945c6830881b72d03d5d683815538dd595e4c1a4959619a94e0a9c5d",
+   "external/eeld10_gen_external.csv": "643289aa03e8abb873415d3c9e13cdf4ac60d43c46ef7347989b6c08cc6262cf",
+   "external/eeld10_ramp_limits.csv": "68c553b6080a905d1d1d73ef3bf5789796d0ffe3f69131ce6dd2777beede4e67"
+  },
+  "omp_num_threads": "2"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "AblLastRGainTen": "0.011",
+ "AblLastRhoGainTen": "0.022",
+ "AblLastRStepTen": "100->250 MW",
+ "AblLastRhoStepTen": "0.10->0.20",
+ "AblLastRhoGainTopRTen": "0.060",
+ "AblLastRhoShareTopRTen": "59",
+ "AblLastRGainTopRhoTen": "0.038",
+ "AblLastRShareTopRhoTen": "26",
+ "AblLastRGainForty": "0.020",
+ "AblLastRhoGainForty": "0.033",
+ "AblLastRStepForty": "250->500 MW",
+ "AblLastRhoStepForty": "0.10->0.20",
+ "AblLastRhoGainTopRForty": "0.061",
+ "AblLastRhoShareTopRForty": "92",
+ "AblLastRGainTopRhoForty": "0.035",
+ "AblLastRShareTopRhoForty": "42"
+}

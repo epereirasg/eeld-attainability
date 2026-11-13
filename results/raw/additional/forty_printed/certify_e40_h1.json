@@ -1,0 +1,90 @@
+[
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": null,
+  "v_multistart": 92868.7128696097,
+  "v_final": 92868.7128696097,
+  "scip_lb": 92350.56893680582,
+  "scip_status": "timelimit",
+  "scip_time_s": 168.21482604200003,
+  "adopted": false
+ },
+ {
+  "kind": "E",
+  "w": null,
+  "Ecap": null,
+  "v_multistart": 9940.211133224566,
+  "v_final": 9940.211133224566,
+  "scip_lb": 9940.20198034174,
+  "scip_status": "gaplimit",
+  "scip_time_s": 0.14439428099990437,
+  "adopted": false
+ },
+ {
+  "kind": "W",
+  "w": 0.25,
+  "Ecap": null,
+  "v_multistart": 0.06508674656690075,
+  "v_final": 0.06508674656690075,
+  "scip_lb": 0.057322927781715216,
+  "scip_status": "timelimit",
+  "scip_time_s": 136.168331245,
+  "adopted": false
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 13493.440444636071,
+  "v_multistart": 97667.0400134068,
+  "v_final": 97667.0400134068,
+  "scip_lb": 97156.50221042417,
+  "scip_status": "timelimit",
+  "scip_time_s": 133.696122028,
+  "adopted": false
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 12783.259368602594,
+  "v_multistart": 98113.87940842756,
+  "v_final": 98113.87940842756,
+  "scip_lb": 97568.83192913396,
+  "scip_status": "timelimit",
+  "scip_time_s": 133.79993713199997,
+  "adopted": false
+ },
+ {
+  "kind": "W",
+  "w": 0.75,
+  "Ecap": null,
+  "v_multistart": 0.10005816588767888,
+  "v_final": 0.060276963158962776,
+  "scip_lb": 0.04999708811977843,
+  "scip_status": "timelimit",
+  "scip_time_s": 195.61202083599983,
+  "adopted": true
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 37723.544105296765,
+  "v_multistart": 94016.49284520789,
+  "v_final": 93517.23502221654,
+  "scip_lb": 93057.50534716487,
+  "scip_status": "timelimit",
+  "scip_time_s": 160.45036633699988,
+  "adopted": true
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 35738.09441554431,
+  "v_multistart": 93725.36864148684,
+  "v_final": 93725.36864148684,
+  "scip_lb": 93175.29924831247,
+  "scip_status": "timelimit",
+  "scip_time_s": 139.63311830499993,
+  "adopted": false
+ }
+]

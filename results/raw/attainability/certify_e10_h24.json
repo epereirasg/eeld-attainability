@@ -1,0 +1,68 @@
+[
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": null,
+  "v_multistart": 66832.59326561203,
+  "v_final": 66832.59326561203,
+  "scip_lb": 66832.59321982366,
+  "scip_status": "optimal",
+  "scip_time_s": 0.5559187200000224,
+  "adopted": false
+ },
+ {
+  "kind": "E",
+  "w": null,
+  "Ecap": null,
+  "v_multistart": 4525.993049596152,
+  "v_final": 4525.993049596152,
+  "scip_lb": 4525.988882532171,
+  "scip_status": "gaplimit",
+  "scip_time_s": 0.07624875400006204,
+  "adopted": false
+ },
+ {
+  "kind": "W",
+  "w": 0.25,
+  "Ecap": null,
+  "v_multistart": 0.16994178000478394,
+  "v_final": 0.16994178000478394,
+  "scip_lb": 0.16994173147674907,
+  "scip_status": "optimal",
+  "scip_time_s": 1.1087854920000382,
+  "adopted": false
+ },
+ {
+  "kind": "W",
+  "w": 0.5,
+  "Ecap": null,
+  "v_multistart": 0.24201350530450472,
+  "v_final": 0.24201350530450472,
+  "scip_lb": 0.24201348324427485,
+  "scip_status": "optimal",
+  "scip_time_s": 0.78062759799991,
+  "adopted": false
+ },
+ {
+  "kind": "W",
+  "w": 0.75,
+  "Ecap": null,
+  "v_multistart": 0.22318767137398388,
+  "v_final": 0.22318767137398388,
+  "scip_lb": 0.2231876533667716,
+  "scip_status": "optimal",
+  "scip_time_s": 0.7065579339999886,
+  "adopted": false
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 4582.055197863563,
+  "v_multistart": 67882.87357219787,
+  "v_final": 67882.87357219787,
+  "scip_lb": 67882.87336113674,
+  "scip_status": "optimal",
+  "scip_time_s": 0.4634621000000152,
+  "adopted": false
+ }
+]

@@ -1,0 +1,52 @@
+{
+ "config": {
+  "exp": "seeds",
+  "hours": "1-12",
+  "tag": "a",
+  "part": 0,
+  "parts": 1,
+  "OPS": {
+   "weights": [
+    0.25,
+    0.5,
+    0.75
+   ],
+   "cuts": [
+    0.05,
+    0.1
+   ],
+   "K": 100,
+   "kb": 4,
+   "eps": 0.05,
+   "R_grid": [
+    25,
+    50,
+    100,
+    250
+   ],
+   "rho_grid": [
+    0.05,
+    0.1,
+    0.2
+   ],
+   "tau_grid": [
+    10,
+    15,
+    30,
+    60
+   ],
+   "R0": 50.0,
+   "rho0": 0.05,
+   "tau0": 15.0,
+   "tau_max": 300.0,
+   "R_hi": 1000.0,
+   "bis": 8,
+   "set_max": 3
+  },
+  "BASE_SEED": 20261023
+ },
+ "metadata": {
+  "note": "Reconstructed: the v3 seed replication was launched as two direct run_seeds(tag) calls that wrote no configuration record. OPS and BASE_SEED are those of the shipped module; seeds are stored per row. The stored rows cover hours 2, 5, 8, 11, which the current command line selects with --hours 1-12.",
+  "reconstructed": true
+ }
+}

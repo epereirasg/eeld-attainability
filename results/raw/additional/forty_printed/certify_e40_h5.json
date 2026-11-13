@@ -1,0 +1,90 @@
+[
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": null,
+  "v_multistart": 129922.09410034592,
+  "v_final": 129922.09410034592,
+  "scip_lb": 127672.34880762226,
+  "scip_status": "timelimit",
+  "scip_time_s": 147.66000849400007,
+  "adopted": false
+ },
+ {
+  "kind": "E",
+  "w": null,
+  "Ecap": null,
+  "v_multistart": 103295.42478924453,
+  "v_final": 103295.42478924453,
+  "scip_lb": 103295.4247686114,
+  "scip_status": "gaplimit",
+  "scip_time_s": 1.3034299140001622,
+  "adopted": false
+ },
+ {
+  "kind": "W",
+  "w": 0.25,
+  "Ecap": null,
+  "v_multistart": 0.18573591244887966,
+  "v_final": 0.18573591244887966,
+  "scip_lb": 0.17335445067621835,
+  "scip_status": "timelimit",
+  "scip_time_s": 134.55289521300006,
+  "adopted": false
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 113139.75092684722,
+  "v_multistart": 152361.46708781805,
+  "v_final": 152361.46708781805,
+  "scip_lb": 151047.12786729747,
+  "scip_status": "timelimit",
+  "scip_time_s": 133.76591411200002,
+  "adopted": false
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 107185.02719385526,
+  "v_multistart": 159818.2179199078,
+  "v_final": 159818.2179199078,
+  "scip_lb": 159058.6348336209,
+  "scip_status": "timelimit",
+  "scip_time_s": 134.0595122750001,
+  "adopted": false
+ },
+ {
+  "kind": "W",
+  "w": 0.75,
+  "Ecap": null,
+  "v_multistart": 0.1715817065579594,
+  "v_final": 0.1715817065579594,
+  "scip_lb": 0.12788118978458263,
+  "scip_status": "timelimit",
+  "scip_time_s": 135.77868331499985,
+  "adopted": false
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 158088.08862182792,
+  "v_multistart": 134329.39428820118,
+  "v_final": 134329.39428820118,
+  "scip_lb": 132067.13400369894,
+  "scip_status": "timelimit",
+  "scip_time_s": 135.53815469300002,
+  "adopted": false
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 149767.66290488964,
+  "v_multistart": 135417.39365035057,
+  "v_final": 135417.39365035057,
+  "scip_lb": 133064.08513475154,
+  "scip_status": "timelimit",
+  "scip_time_s": 134.3366973269999,
+  "adopted": false
+ }
+]

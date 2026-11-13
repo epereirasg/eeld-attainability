@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+
+# Earlier code base fetched by scripts/fetch_legacy_repo.sh
+/external/
+
+# Reruns written by run_experiments.py --exp campaign|supplementary|all, and execution logs
+results/rerun/
+results/logs/
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.tmp

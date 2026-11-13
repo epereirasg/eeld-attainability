@@ -1,0 +1,28 @@
+{
+  "title": "Attainability analysis and allowance counterfactuals in emission redispatch: code, data and results",
+  "upload_type": "software",
+  "description": "Code, input data, raw outputs, processed results, tables, number macros and figures for the article 'Attainability Analysis and Allowance Counterfactuals in Emission Redispatch' (E. Pereiras, G. Nápoles and Y. Salgueiro, submitted to IEEE Access, 2026). Run python run_experiments.py --exp tables to rebuild every table and number macro, and scripts/make_figures.sh to rebuild the figures.",
+  "creators": [
+    {
+      "name": "Pereiras, Ernesto",
+      "affiliation": "Universidad de Talca"
+    },
+    {
+      "name": "Nápoles, Gonzalo",
+      "affiliation": "Tilburg University"
+    },
+    {
+      "name": "Salgueiro, Yamisleydi",
+      "affiliation": "Universidad de Talca"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "economic-emission dispatch",
+    "redispatch",
+    "attainability",
+    "counterfactual explanations",
+    "multi-objective optimization"
+  ],
+  "version": "1.0.0"
+}

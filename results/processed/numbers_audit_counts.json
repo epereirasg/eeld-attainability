@@ -1,0 +1,20 @@
+{
+ "AuditN": "126",
+ "AuditReachN": "60",
+ "AuditReachZeroN": "37",
+ "AuditReachAboveEpsN": "15",
+ "MainLowCutN": "132",
+ "MainLowCutReachN": "68",
+ "AuditEffN": "132",
+ "AuditEffLossMed": "0.00",
+ "AuditEffLossQc": "0.37",
+ "AuditEffLossMax": "2.23",
+ "AnchorEminScaled": "67{,}621",
+ "AnchorCostScaled": "161{,}360",
+ "AnchorEminStd": "184{,}619",
+ "AnchorAlphaSum": "8{,}402",
+ "AnchorEminNoConstDiff": "0.3",
+ "AnchorCostDiff": "0.002",
+ "AnchorCostStd": "129{,}998",
+ "AnchorCminExcess": "1.7"
+}

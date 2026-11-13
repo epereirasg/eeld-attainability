@@ -1,0 +1,19 @@
+{
+ "config": {
+  "case": "10",
+  "frac": 0.05,
+  "maxiter": 400,
+  "pop": 25,
+  "part": 0,
+  "parts": 1,
+  "sample_random_state": 7,
+  "grid_files": [
+   "grid_e10a.csv",
+   "grid_e10b.csv"
+  ]
+ },
+ "metadata": {
+  "reconstructed": true,
+  "note": "Reconstructed from the v3 launch command. The v3 runner concatenated the grid files in file-system order; the order listed here is the one that reproduces the stored sample exactly (checked against de_e*_p*.csv)."
+ }
+}

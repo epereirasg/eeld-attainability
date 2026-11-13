@@ -1,0 +1,90 @@
+[
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": null,
+  "v_multistart": 123494.66304450815,
+  "v_final": 123494.66304450815,
+  "scip_lb": 120399.20308668361,
+  "scip_status": "timelimit",
+  "scip_time_s": 148.23394614300014,
+  "adopted": false
+ },
+ {
+  "kind": "E",
+  "w": null,
+  "Ecap": null,
+  "v_multistart": 67620.93391578371,
+  "v_final": 67620.93391578371,
+  "scip_lb": 67620.9339009476,
+  "scip_status": "gaplimit",
+  "scip_time_s": 14.33799628800034,
+  "adopted": false
+ },
+ {
+  "kind": "W",
+  "w": 0.25,
+  "Ecap": null,
+  "v_multistart": 0.14239661838482137,
+  "v_final": 0.14239661838482137,
+  "scip_lb": 0.13307236438879655,
+  "scip_status": "timelimit",
+  "scip_time_s": 134.41458829900012,
+  "adopted": false
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 79501.91114451709,
+  "v_multistart": 136029.1062403749,
+  "v_final": 136029.1062403749,
+  "scip_lb": 134833.36396499205,
+  "scip_status": "timelimit",
+  "scip_time_s": 134.12077775399985,
+  "adopted": false
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 75317.60003164777,
+  "v_multistart": 141469.94401326022,
+  "v_final": 141469.94401326022,
+  "scip_lb": 140365.55763905644,
+  "scip_status": "timelimit",
+  "scip_time_s": 135.27316772999984,
+  "adopted": false
+ },
+ {
+  "kind": "W",
+  "w": 0.75,
+  "Ecap": null,
+  "v_multistart": 0.12475712428155067,
+  "v_final": 0.12475712428155067,
+  "scip_lb": 0.10059571097191311,
+  "scip_status": "timelimit",
+  "scip_time_s": 134.77482984799963,
+  "adopted": false
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 104468.17542599427,
+  "v_multistart": 126568.05934675309,
+  "v_final": 126568.05934675309,
+  "scip_lb": 125414.24286802566,
+  "scip_status": "timelimit",
+  "scip_time_s": 134.48078024000006,
+  "adopted": false
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 98969.85040357352,
+  "v_multistart": 127380.97196326352,
+  "v_final": 127380.97196326352,
+  "scip_lb": 125717.98087071626,
+  "scip_status": "timelimit",
+  "scip_time_s": 134.14756270100042,
+  "adopted": false
+ }
+]

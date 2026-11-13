@@ -1,0 +1,24 @@
+\begin{tabular}{@{}p{1.9cm}p{5.6cm}p{3.9cm}p{1.5cm}p{3.3cm}@{}}
+\toprule
+Objective & Criterion & Observed & Outcome & Reading \\
+\midrule
+\multicolumn{5}{@{}l}{\emph{Panel A. Claims about the method}} \\
+O3 (seeds) & $\rho^{*}$ and $R^{*}$ agree across solver seeds within 0.004 and 8~MW & 161 of 161 pairs within tolerance & Met & The instruction does not depend on the solver seed \\
+O4 & No structural check of Lemma~1 fails and no independent DE solve improves a sampled cell by more than $0.01$ & 0 violations in 5{,}832 cells, 0 DE failures in 297 & Met & No missed optimum found by sampling \\
+O4 (global) & Same criterion, SCIP on every cell of the final 10-unit dataset & 6{,}336 of 6{,}336 cells globally bounded within 0.01 & Met & Every stored gap is a global optimum to 0.01 \\
+O4 (counterfactuals) & SCIP bounds propagated through each bisection step, no criterion (additional) & 322 of 322 proven sufficient, 307 minimal to one step by the bounds & Reported & The minimal allowance is checked, not only the gap \\
+O4 (direct) & SCIP on the direct formulation for the undecided steps, no criterion (additional) & 13 of 15 minimal, 2 replaced by the global minimum, so 322 of 322 minimal & Reported & Bisection can miss the minimum by a step \\
+O4 (compliance) & Feasible dispatch at the value and SCIP bound one step below, no criterion (additional) & 316 of 316 sufficient, 316 minimal & Reported & The compliance counterfactuals are exact to one step \\
+O4 (losses, global) & Same criterion, SCIP on the physical and reference cells of the loss model & 414 of 414 cells globally bounded & Met & Losses do not hide missed optima \\
+O4 (30-bus, global) & Same criterion, SCIP on every stored cell (additional) & 1{,}890 of 1{,}890 cells globally bounded & Met & Line limits do not hide missed optima \\
+O4 (40-unit) & Same criterion, empirical check & 0 violations, 0 DE failures in 17 & Met & No missed optimum found by sampling \\
+O4 (40-unit, global) & Same criterion, SCIP for \SI{600}{s} on every reference and physical cell (additional) & 44 of 48 cells globally bounded, 4 open, 0 improved by more than 0.01 & Met & Open cells keep the empirical check only \\
+O5 (procedures) & A difference holds in at least 7 of 9 configurations, with Holm-adjusted $p<0.05$ and a shift of at least $0.05$. The outcome applies this rule to request-level tests and has no inferential value. Procedures against generators & 7 of 9 & Met & Repaired procedures beat the adapted generators \\
+O5 (DFO) & Same criterion, derivative-free optimizers against procedures & 6 of 9 & Not met & Their advantage over the procedures depends on the configuration \\
+O5 (audit) & Primary comparison added after the main campaign. Default configuration, all hours, reachable and unreachable requests, ten seeds, exact sign-flip test of hour means & generators within 0.05 in 12\%, procedures 58\%, DFO 99\%, generators $p=6.0\times10^{-8}$, generators 10\% with convex cost & Reported & The adapted generators stop short of the attainable, also without the valve-point term \\
+O5 (counterfactuals) & Counterfactuals with each family as inner solver, no criterion (additional) & generators equal the reference band in 0 of 64 sampled requests & Reported & A miss of the inner solver changes the instruction \\
+O5 (oracle) & Oracle-limited comparison, no criterion (additional) & best CMA-ES with 25 calls, CMA-ES with noise & Reported & With scarce calls an evolution strategy leads \\
+O5 (no gain) & A dispatch worse than the incumbent is scored as the incumbent, and its frequency is reported & DiCE-R worse than inc. in 64\% (default) & Reported & Some generators return no improvement \\
+O3 (redispatch) & A fraction of the full re-solve is named only if the median supports it & $R^{*}$ = 88\% of a full re-solve (median) & Reported & A bounded instruction moves less than a full re-solve \\
+\bottomrule
+\end{tabular}

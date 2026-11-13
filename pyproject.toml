@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eeld-attainability"
+version = "1.0.0"
+description = "Attainability analysis and allowance counterfactuals in emission redispatch"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+  { name = "Ernesto Pereiras García" },
+  { name = "Gonzalo Nápoles" },
+  { name = "Yamisleydi Salgueiro" },
+]
+dependencies = ["numpy", "scipy", "pandas", "matplotlib", "seaborn"]
+
+[project.optional-dependencies]
+methods = ["cma", "scikit-learn"]
+scip = ["pyscipopt"]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "analysis"]
+addopts = "-q"
+markers = ["slow: reporting-chain test (several seconds)"]

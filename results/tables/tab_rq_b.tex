@@ -1,0 +1,21 @@
+\begin{tabular}{@{}p{1.9cm}p{5.6cm}p{3.9cm}p{1.5cm}p{3.3cm}@{}}
+\toprule
+Objective & Criterion & Observed & Outcome & Reading \\
+\midrule
+\multicolumn{5}{@{}l}{\emph{Panel B. Characterizations of the test systems}} \\
+O1 & Spearman correlation between $W_h$ and the mean $\eta_E$ of at least $0.6$. A consistency check of \eqref{eq:reach} & 0.79 & Met & Judge a request against the front of its hour \\
+O1 (40-unit) & Same criterion, six demand levels (descriptive) & 0.77 & Met & Six levels give only a coarse estimate \\
+O2 & (a) Mean $G^{*}_{\mathrm{allow}}\ge0.10$ over the study region in at least half of the requests, lower 95\% bound above $0.40$. (b) Mean change in $G^{*}$ from 100 to 250~MW at most $0.02$ for $\rho\le0.10$. (c) Budget alone and band alone each remove less than 70\% of the gap in most requests & (a) 76.3\% [70.2, 82.3], (b) 0.008, (c) 86\% of 161 & Met & State both a total budget and per-unit bands \\
+O2 (40-unit) & Same criterion, region $R\in\{100,250,500\}$~MW & (a) 83.3\% [66.7, 95.8], (b) 0.148, (c) 42\% of 24 & Not met, (b, c) & A larger budget still lowers the gap on a fleet of many similar units \\
+O2 (30-bus) & Same criterion, DC line limits (additional) & (a) 44\% [31, 58], (b) 0.000, (c) 0\% of 30 & Not met, (a, c) & One band carries the gap \\
+O3 (sparsity) & $|S^{*}|\le2$ for at least half of the requests that need a unit counterfactual & 74\% (band-active search) & Met & Lifting one or two bands usually suffices \\
+O3 (all units) & Same criterion, all sets of at most three units (additional) & 77\% [70, 84] & Met & Same reading with an exhaustive search \\
+O3 (40-unit) & Same criterion, exhaustive pair search (O6) & 50\% (greedy 12\%) & Met & Lifting one or two bands suffices in half of the requests \\
+O6 (losses) & The O1 and O2 criteria hold in the loss model, uniform bands & O1 0.88, O2 (a) 63.0\% [55.1, 71.0], (b) 0.012, (c) 87\% of 102 & Met & Losses leave the reading unchanged \\
+O6 (ramps) & The criteria of O2 and O3 hold with ramp bands ($\tau\le30$~min in (b)) & (a) 63.0\% [55.1, 71.0], (b) 0.031, (c) 99\%, $|S^{*}|\le2$ in 75\% & Not met, (b) & Grant response time, a larger budget still lowers the gap slightly \\
+O6 (ramps, 40-unit) & Same criteria, stylized losses and ramps & (a) 71\% [54, 88] at the reference, (b) no budget grid, (c) 50\% of 20, $|S^{*}|\le2$ in 44\% & Not met, (c, sets) & Ramp bands dominate the budget \\
+O6 (window) & The single-hour analysis suffices if the median $|\Delta G^{*}|<0.05$. Neighbors fixed & 0.045 (mean 0.132, 53\% below 0.05, max 0.792) & Met (median only) & Frozen neighbors can lock schedules, so check the tail \\
+O6 (window) & Same criterion, neighbors adjustable & 0.000 (mean 0.004, 97\% below 0.05) & Met & A single-hour analysis suffices \\
+O6 (pairs) & No criterion & 6/6/12 of 24 (1/2/no pair found) & Reported & Greedy screening understates sparsity \\
+\bottomrule
+\end{tabular}

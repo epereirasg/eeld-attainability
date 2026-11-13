@@ -1,0 +1,79 @@
+[
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": null,
+  "v_multistart": 145104.0296874378,
+  "v_final": 145104.0296874378,
+  "scip_lb": 143913.5739173134,
+  "scip_status": "timelimit",
+  "scip_time_s": 148.7323721189996,
+  "adopted": false
+ },
+ {
+  "kind": "E",
+  "w": null,
+  "Ecap": null,
+  "v_multistart": 260970.99410538422,
+  "v_final": 260970.99410538422,
+  "scip_lb": 260970.99412422106,
+  "scip_status": "gaplimit",
+  "scip_time_s": 2.0016715279998607,
+  "adopted": false
+ },
+ {
+  "kind": "W",
+  "w": 0.25,
+  "Ecap": null,
+  "v_multistart": 0.2368224515075923,
+  "v_final": 0.2368224515075923,
+  "scip_lb": 0.23679623317138532,
+  "scip_status": "timelimit",
+  "scip_time_s": 139.16666085399993,
+  "adopted": false
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 261369.15359956303,
+  "v_multistart": 178882.41049107915,
+  "v_final": 178882.41049107915,
+  "scip_lb": 178882.23024233404,
+  "scip_status": "gaplimit",
+  "scip_time_s": 117.89380516100027,
+  "adopted": false
+ },
+ {
+  "kind": "W",
+  "w": 0.75,
+  "Ecap": null,
+  "v_multistart": 0.17034251032326236,
+  "v_final": 0.17034251032326236,
+  "scip_lb": 0.17026731516923643,
+  "scip_status": "timelimit",
+  "scip_time_s": 130.25663263200022,
+  "adopted": false
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 362857.5635516383,
+  "v_multistart": 148282.26003560863,
+  "v_final": 148282.26003560863,
+  "scip_lb": 148268.03928766036,
+  "scip_status": "timelimit",
+  "scip_time_s": 135.71762614399995,
+  "adopted": false
+ },
+ {
+  "kind": "C",
+  "w": null,
+  "Ecap": 343759.7970489205,
+  "v_multistart": 151231.44148575363,
+  "v_final": 151231.44148575363,
+  "scip_lb": 151157.84407474473,
+  "scip_status": "timelimit",
+  "scip_time_s": 134.24727479299963,
+  "adopted": false
+ }
+]

@@ -1,0 +1,17 @@
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Method & \multicolumn{5}{c}{Median shortfall at budget (calls)} \\
+\cmidrule(l){2-6}
+ & 25 & 50 & 100 & 100$^{\dagger}$ & 500$^{\dagger}$ \\
+\midrule
+POLY & 0.552 & 0.365 & 0.221 & 1.000 & 1.000 \\
+ELLP & 0.693 & 0.487 & 0.258 & 0.849 & 0.813 \\
+CGM & 1.000 & 0.932 & 0.556 & 1.000 & 1.000 \\
+GS-R & 0.892 & 0.849 & 0.754 & 0.823 & 0.188 \\
+COBYQA & 0.650 & 0.112 & 0.020 & 0.929 & 0.967 \\
+SLSQP-FD & 0.979 & 0.551 & 0.328 & 1.000 & 1.000 \\
+CMA-ES & 0.377 & 0.232 & 0.126 & 0.141 & 0.053 \\
+\midrule
+Calls used (mean, COBYQA) & 25 & 50 & 100 & 100 & 179 \\
+\bottomrule
+\end{tabular}
